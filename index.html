@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    
+    body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container{
+      display: grid;
+      width: 748px;
+      height: 746px;
+      gap: 9px;
+      background-color: black;
+      grid-template-columns: 320px 198px 153px 50px;
+      grid-template-rows: 414px 130px 155px 20px;
+    }
+    
+    .red-rect{
+      background-color: #E72F24;
+    }
+
+    .white-square{
+      background-color: #F0F1EC;
+      grid-column: span 3;
+    }
+
+    .white-rect1{
+      background-color: #F0F1EC;
+      grid-row: span 2;
+    }
+
+    .white-rect2{
+      background-color: #F0F1EC;
+      grid-row: span 2;
+      grid-column: span 2;
+    }
+
+    .blue-rect{
+      background-color: #004592;
+      border-bottom: 10px solid black;
+    }
+
+    .white-rect3{
+      background-color: #F0F1EC;
+      grid-row: span 2;
+    }
+
+    .yellow-rect{
+      background-color: #F9D01E;
+    }
+
+    .white-rect4{
+      background-color: #F0F1EC;
+    }
+
+    .black-rect{
+      background-color: #232629;
+    }
+  
+  </style>
+</head>
+
+<body>
+  <div  class="container">
+    <div class="red-rect"></div>
+    <div class="white-square"></div>
+    <div class="white-rect1"></div>
+    <div class="white-rect2"></div>
+    <div class="blue-rect"></div>
+    <div class="white-rect3"></div>
+    <div class="white-rect4"></div>
+    <div class="yellow-rect"></div>
+    <div class="black-rect"></div>
+  </div>
+  <!-- Write your HTML here -->
+</body>
+
+</html>
